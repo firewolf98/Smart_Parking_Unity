@@ -1,0 +1,129 @@
+Base path: 'C:/Program Files/Unity 2020.3.48f1/Editor/Data', plugins path 'C:/Program Files/Unity 2020.3.48f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileSnippet
+  insize=1188 file=Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/PixelShaders/Barracuda/Resample2D pass=<Unnamed Pass> cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=BATCHTILLING_OFF dKW=BATCHTILLING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 flags=0 lang=0 type=Fragment platform=d3d11 reqs=33 mask=6 start=13 ok=1 outsize=1930
+
+Cmd: compileComputeKernel
+  insize=18743 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/MatMul.compute kernel=MultidimMatMul_T16x16_R4x4_AR3_BR2_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<RANKA=3>,<RANKB=2>,<BLOCK_SIZE=4>,<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=7656
+
+Cmd: compileComputeKernel
+  insize=15342 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/Reduce.compute kernel=PartialReduceMean cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<LOOP=0>,<REDUCEMEAN=1>,<PARTIALSUFFIX=PartialReduceMean>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=2340
+
+Cmd: compileComputeKernel
+  insize=15342 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/Reduce.compute kernel=PartialReduceMin_Loop cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<LOOP=1>,<REDUCEMIN=1>,<PARTIALSUFFIX=PartialReduceMin>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=2916
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Atan_CNyx_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1805
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Asinh_Nyxc_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1334
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Acosh_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1397
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Pow_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1369
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Exp_CNyx_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1288
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=HardSigmoid_Nyxc_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1311
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Softplus_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1392
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Selu_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1547
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Relu_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1292
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Sin_Loop cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=772
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Atanh_FlatStrict cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=855
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Asin_Loop cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1113
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Acosh_Loop cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=882
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=LogicalNot_Flat cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=716
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Elu_FlatStrict cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=1023
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Floor_Loop cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=770
+
+Cmd: compileComputeKernel
+  insize=10837 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Abs_Flat cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0 ok=1 outsize=677
+
+Cmd: compileComputeKernel
+  insize=88028 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Upsample2D_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at BarracudaReferenceImpl.compute(2720): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2747): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2763): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2765): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2767): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2769): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1579
+
+Cmd: compileComputeKernel
+  insize=88028 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Conv2D_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at BarracudaReferenceImpl.compute(2720): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2747): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2763): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2765): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2767): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2769): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=2850
+
+Cmd: compileComputeKernel
+  insize=88028 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Unstride2D_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at BarracudaReferenceImpl.compute(2720): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2747): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2763): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2765): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2767): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2769): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1689
+
+Cmd: compileComputeKernel
+  insize=88028 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=GlobalAvgVariancePool2D_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at BarracudaReferenceImpl.compute(2720): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2747): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2763): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2765): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2767): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2769): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1647
+
+Cmd: compileComputeKernel
+  insize=88028 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Neg_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at BarracudaReferenceImpl.compute(2720): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2747): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2763): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2765): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2767): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2769): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=3375
+
+Cmd: compileComputeKernel
+  insize=88028 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Reciprocal_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at BarracudaReferenceImpl.compute(2720): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2747): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2763): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2765): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2767): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2769): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=3398
+
+Cmd: compileComputeKernel
+  insize=88028 file=C:/Users/ADMiN/Unity_Projects/Smart_Parking/Library/PackageCache/com.unity.barracuda@2.3.1-preview/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Softmax_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 1 plat 4 at BarracudaReferenceImpl.compute(2720): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2747): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2763): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2765): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2767): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at BarracudaReferenceImpl.compute(2769): signed/unsigned mismatch, unsigned assumed
+ ok=1 outsize=1554
+
