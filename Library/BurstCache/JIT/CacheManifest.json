@@ -7,7 +7,7 @@
     },
     {
       "FullName": "Unity.Barracuda, Version=2.3.1.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-11-04T15:07:40.0870277Z"
+      "LastWriteTime": "2023-11-07T10:39:39.1939564Z"
     },
     {
       "FullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -15,19 +15,19 @@
     },
     {
       "FullName": "Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-11-04T15:07:39.668942Z"
+      "LastWriteTime": "2023-11-07T10:39:39.225273Z"
     },
     {
       "FullName": "netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51",
       "LastWriteTime": "2023-05-09T01:04:16Z"
     },
     {
-      "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2023-11-04T15:07:36.9770605Z"
-    },
-    {
       "FullName": "mscorlib, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
       "LastWriteTime": "2023-05-09T01:04:16Z"
+    },
+    {
+      "FullName": "Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2023-11-07T10:39:39.2055594Z"
     }
   ],
   "Functions": [
@@ -76,8 +76,9 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        2,
-        4
+        5,
+        4,
+        2
       ]
     },
     {
@@ -100,8 +101,8 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        4,
-        2
+        2,
+        4
       ]
     },
     {
@@ -134,7 +135,7 @@
       "ModuleHash": "c87113c6360cb72b850d67fe791ff0d4",
       "LinkName": "801E9A000BB37B05",
       "AssemblyDependencyIndices": [
-        5,
+        6,
         4,
         2
       ]
@@ -145,7 +146,7 @@
       "ModuleHash": "444132cb273a2e20777b77833283060e",
       "LinkName": "CDCA4A5193BE5947",
       "AssemblyDependencyIndices": [
-        5,
+        6,
         4,
         2
       ]
@@ -1149,9 +1150,8 @@
       "AssemblyDependencyIndices": [
         0,
         1,
-        6,
-        2,
         3,
+        2,
         4
       ]
     },
