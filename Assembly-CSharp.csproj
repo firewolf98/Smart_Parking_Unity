@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\movimenti.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\SpaceZeta_Spotlight\Info.txt" />
     <None Include="Assets\Parkgarage\parkinggarage_readMe.txt" />
     <None Include="Assets\BackgroundCars\FreeCar\BackgroundCar-Free.txt" />
   </ItemGroup>
