@@ -1,31 +1,218 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Utente/Unity_Projects/Smart_Parking_Unity/Packages/manifest.json
+    m_FilePath: C:/Users/ADMiN/Unity_Projects/Smart_Parking/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638349503794485471
-    m_Hash: 1141037488
+      ticks: 638363599958945831
+    m_Hash: 1156208057
   m_LockFileStatus:
-    m_FilePath: C:/Users/Utente/Unity_Projects/Smart_Parking_Unity/Packages/packages-lock.json
+    m_FilePath: C:/Users/ADMiN/Unity_Projects/Smart_Parking/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638349503794485471
-    m_Hash: 1377300325
+      ticks: 638363599959042239
+    m_Hash: 3025910344
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.unity.cinemachine@2.6.17
+      testable: 0
+      isDirectDependency: 1
+      version: 2.6.17
+      source: 1
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.cinemachine@2.6.17
+      assetPath: Packages/com.unity.cinemachine
+      name: com.unity.cinemachine
+      displayName: Cinemachine
+      author:
+        name: 
+        email: 
+        url: 
+      category: cinematography
+      type: asset
+      description: "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE:
+        If you are upgrading from the Asset Store version of Cinemachine, delete
+        the Cinemachine asset from your project BEFORE installing this version from
+        the Package Manager."
+      status: 0
+      errors: []
+      versions:
+        all:
+        - 2.1.11-beta.1
+        - 2.1.12
+        - 2.1.13
+        - 2.2.0
+        - 2.2.7
+        - 2.2.8
+        - 2.2.9
+        - 2.2.10-preview.3
+        - 2.2.10-preview.4
+        - 2.3.1
+        - 2.3.3
+        - 2.3.4
+        - 2.3.5-preview.3
+        - 2.4.0-preview.3
+        - 2.4.0-preview.4
+        - 2.4.0-preview.6
+        - 2.4.0-preview.7
+        - 2.4.0-preview.8
+        - 2.4.0-preview.9
+        - 2.4.0-preview.10
+        - 2.4.0
+        - 2.5.0
+        - 2.6.0-preview.2
+        - 2.6.0-preview.3
+        - 2.6.0-preview.5
+        - 2.6.0-preview.8
+        - 2.6.0
+        - 2.6.1-preview.6
+        - 2.6.1
+        - 2.6.2-preview.1
+        - 2.6.2
+        - 2.6.3-preview.2
+        - 2.6.3
+        - 2.6.4
+        - 2.6.5
+        - 2.6.9
+        - 2.6.10
+        - 2.6.11
+        - 2.6.14
+        - 2.6.15
+        - 2.6.17
+        - 2.7.1
+        - 2.7.2
+        - 2.7.3
+        - 2.7.4
+        - 2.7.5
+        - 2.7.8
+        - 2.7.9
+        - 2.8.0-exp.1
+        - 2.8.0-exp.2
+        - 2.8.0-pre.1
+        - 2.8.0
+        - 2.8.1
+        - 2.8.2
+        - 2.8.3
+        - 2.8.4
+        - 2.8.6
+        - 2.8.9
+        - 2.9.0-pre.1
+        - 2.9.0-pre.6
+        - 2.9.1
+        - 2.9.2
+        - 2.9.4
+        - 2.9.5
+        - 2.9.7
+        - 3.0.0-pre.3
+        - 3.0.0-pre.4
+        - 3.0.0-pre.5
+        - 3.0.0-pre.6
+        - 3.0.0-pre.7
+        - 3.0.0-pre.8
+        - 3.0.0-pre.9
+        compatible:
+        - 2.5.0
+        - 2.6.0-preview.2
+        - 2.6.0-preview.3
+        - 2.6.0-preview.5
+        - 2.6.0-preview.8
+        - 2.6.0
+        - 2.6.1-preview.6
+        - 2.6.1
+        - 2.6.2-preview.1
+        - 2.6.2
+        - 2.6.3-preview.2
+        - 2.6.3
+        - 2.6.4
+        - 2.6.5
+        - 2.6.9
+        - 2.6.10
+        - 2.6.11
+        - 2.6.14
+        - 2.6.15
+        - 2.6.17
+        - 2.7.1
+        - 2.7.2
+        - 2.7.3
+        - 2.7.4
+        - 2.7.5
+        - 2.7.8
+        - 2.7.9
+        - 2.8.0-exp.1
+        - 2.8.0-exp.2
+        - 2.8.0-pre.1
+        - 2.8.0
+        - 2.8.1
+        - 2.8.2
+        - 2.8.3
+        - 2.8.4
+        - 2.8.6
+        - 2.8.9
+        - 2.9.0-pre.1
+        - 2.9.0-pre.6
+        - 2.9.1
+        - 2.9.2
+        - 2.9.4
+        - 2.9.5
+        - 2.9.7
+        verified: 2.6.17
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - camera
+      - follow
+      - rig
+      - fps
+      - cinematography
+      - aim
+      - orbit
+      - cutscene
+      - cinematic
+      - collision
+      - freelook
+      - cinemachine
+      - compose
+      - composition
+      - dolly
+      - track
+      - clearshot
+      - noise
+      - framing
+      - handheld
+      - lens
+      - impulse
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+        configSource: 0
+      hasRegistry: 1
+      hideInEditor: 0
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637975495960000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
+        revision: 57501b59e2a5755e26dc54181b2b097af0045a44
+        path: 
     - packageId: com.unity.collab-proxy@2.0.4
       testable: 0
       isDirectDependency: 1
       version: 2.0.4
       source: 1
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.collab-proxy@2.0.4
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.collab-proxy@2.0.4
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -165,7 +352,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.21
       source: 1
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.ide.rider@3.0.21
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.ide.rider@3.0.21
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -297,7 +484,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.18
       source: 1
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -403,7 +590,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.5
       source: 1
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.ide.vscode@1.2.5
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.ide.vscode@1.2.5
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -472,12 +659,12 @@ m_PackageAssets:
         url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
         revision: b0740c80bfc2440527c317109f7c3d9100132722
         path: 
-    - packageId: com.unity.ml-agents@file:C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents
+    - packageId: com.unity.ml-agents@file:C:\Users\ADMiN\Unity_Projects\Smart_Parking\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents
       testable: 0
       isDirectDependency: 1
       version: 2.2.1-exp.1
       source: 4
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents
       assetPath: Packages/com.unity.ml-agents
       name: com.unity.ml-agents
       displayName: ML Agents
@@ -597,12 +784,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.ml-agents.extensions@file:C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents.extensions
+    - packageId: com.unity.ml-agents.extensions@file:C:\Users\ADMiN\Unity_Projects\Smart_Parking\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents.extensions
       testable: 0
       isDirectDependency: 1
       version: 0.6.1-preview
       source: 4
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents.extensions
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents.extensions
       assetPath: Packages/com.unity.ml-agents.extensions
       name: com.unity.ml-agents.extensions
       displayName: ML Agents Extensions
@@ -666,7 +853,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.33
       source: 1
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.test-framework@1.1.33
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.test-framework@1.1.33
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -789,7 +976,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -963,7 +1150,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1156,7 +1343,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.ugui@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1222,7 +1409,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.ai@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1271,7 +1458,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1320,7 +1507,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.animation@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1369,7 +1556,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1418,7 +1605,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.audio@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1467,7 +1654,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.cloth@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1520,7 +1707,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.director@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1577,7 +1764,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1627,7 +1814,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.imgui@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1676,7 +1863,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1725,7 +1912,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1774,7 +1961,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.physics@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -1823,7 +2010,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -1872,7 +2059,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -1925,7 +2112,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.terrain@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -1974,7 +2161,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -2031,7 +2218,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -2084,7 +2271,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.ui@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -2133,7 +2320,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.uielements@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2198,7 +2385,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.umbra@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2247,7 +2434,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2304,7 +2491,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2353,7 +2540,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2410,7 +2597,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2467,7 +2654,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2524,7 +2711,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2597,7 +2784,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2650,7 +2837,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.video@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2711,7 +2898,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.vr@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2774,7 +2961,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.wind@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2823,7 +3010,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.xr@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -2884,7 +3071,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -2937,7 +3124,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -2997,7 +3184,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3067,7 +3254,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.3.1-preview
       source: 1
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.barracuda@2.3.1-preview
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.barracuda@2.3.1-preview
       assetPath: Packages/com.unity.barracuda
       name: com.unity.barracuda
       displayName: Barracuda
@@ -3210,7 +3397,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.6.0
       source: 1
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.burst@1.6.0
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.burst@1.6.0
       assetPath: Packages/com.unity.burst
       name: com.unity.burst
       displayName: Burst
@@ -3351,6 +3538,7 @@ m_PackageAssets:
         - 1.8.8
         - 1.8.9
         - 1.8.10
+        - 1.8.11
         compatible:
         - 1.1.1
         - 1.1.2
@@ -3448,6 +3636,7 @@ m_PackageAssets:
         - 1.8.8
         - 1.8.9
         - 1.8.10
+        - 1.8.11
         verified: 1.6.6
       dependencies:
       - name: com.unity.mathematics
@@ -3482,7 +3671,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.2.1
       source: 1
-      resolvedPath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\Library\PackageCache\com.unity.mathematics@1.2.1
+      resolvedPath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\Library\PackageCache\com.unity.mathematics@1.2.1
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3563,33 +3752,33 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus:
-    - m_FilePath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents/package.json
+    - m_FilePath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents/package.json
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 638349503813220110
-      m_Hash: 425739642
-    - m_FilePath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 0
-      m_Hash: 0
-    - m_FilePath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents.extensions/package.json
-      m_PathExists: 1
-      m_ContentTrackingEnabled: 1
-      m_ModificationDate:
-        serializedVersion: 2
-        ticks: 638349503806786994
-      m_Hash: 1425541797
-    - m_FilePath: C:\Users\Utente\Unity_Projects\Smart_Parking_Unity\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents.extensions
+        ticks: 638347071053924162
+      m_Hash: 2903901163
+    - m_FilePath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
         ticks: 0
       m_Hash: 0
-m_ProjectPath: C:/Users/Utente/Unity_Projects/Smart_Parking_Unity/Packages
+    - m_FilePath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents.extensions/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638347071029595391
+      m_Hash: 615094184
+    - m_FilePath: C:\Users\ADMiN\Unity_Projects\Smart_Parking\ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents.extensions
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 0
+      m_Hash: 0
+m_ProjectPath: C:/Users/ADMiN/Unity_Projects/Smart_Parking/Packages
 m_EditorVersion: 2020.3.48f1 (b805b124c6b7)
