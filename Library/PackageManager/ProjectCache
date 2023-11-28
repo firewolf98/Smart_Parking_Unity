@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638363599958945831
-    m_Hash: 1156208057
+      ticks: 638363611736622902
+    m_Hash: 3195186197
   m_LockFileStatus:
     m_FilePath: C:/Users/ADMiN/Unity_Projects/Smart_Parking/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638363599959042239
-    m_Hash: 3025910344
+      ticks: 638363611736622902
+    m_Hash: 3107193619
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
