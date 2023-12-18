@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2767181, g: 0.38506955, b: 0.5361662, a: 1}
+  m_IndirectSpecularColor: {r: 0.27666262, g: 0.38564533, b: 0.53661925, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -27067,7 +27067,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 701019978}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -16.06, y: 0.44000006, z: -9.75}
+  m_LocalPosition: {x: -16.06, y: 0.3999, z: -9.75}
   m_LocalScale: {x: 237.37212, y: 100.00005, z: 100.00005}
   m_Children: []
   m_Father: {fileID: 404172895}
@@ -28042,7 +28042,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 729145094}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -16.06, y: 0.44000006, z: -19.550003}
+  m_LocalPosition: {x: -16.06, y: 0.3999, z: -19.550003}
   m_LocalScale: {x: 237.37212, y: 100.00005, z: 100.00005}
   m_Children: []
   m_Father: {fileID: 404172895}
@@ -28838,7 +28838,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755168683}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -16.06, y: 0.44000006, z: -7.79}
+  m_LocalPosition: {x: -16.06, y: 0.3999, z: -7.79}
   m_LocalScale: {x: 237.37212, y: 100.00005, z: 100.00005}
   m_Children: []
   m_Father: {fileID: 404172895}
@@ -41468,7 +41468,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115784479}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -16.06, y: 0.44000006, z: -11.71}
+  m_LocalPosition: {x: -16.06, y: 0.3999, z: -11.71}
   m_LocalScale: {x: 237.37212, y: 100.00005, z: 100.00005}
   m_Children: []
   m_Father: {fileID: 404172895}
@@ -42437,7 +42437,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138403306}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -16.06, y: 0.44000006, z: -15.63}
+  m_LocalPosition: {x: -16.06, y: 0.3999, z: -15.63}
   m_LocalScale: {x: 237.37212, y: 100.00005, z: 100.00005}
   m_Children: []
   m_Father: {fileID: 404172895}
@@ -49976,7 +49976,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362488386}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -16.06, y: 0.44000006, z: -13.67}
+  m_LocalPosition: {x: -16.06, y: 0.3999, z: -13.67}
   m_LocalScale: {x: 237.37212, y: 100.00005, z: 100.00005}
   m_Children: []
   m_Father: {fileID: 404172895}
@@ -56453,7 +56453,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540159335}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -16.06, y: 0.44000006, z: -17.59}
+  m_LocalPosition: {x: -16.06, y: 0.3999, z: -17.59}
   m_LocalScale: {x: 237.37212, y: 100.00005, z: 100.00005}
   m_Children: []
   m_Father: {fileID: 404172895}
@@ -78168,6 +78168,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2872656104429308514, guid: 9a1d0a5028d9f524bb8274f5b97a0122, type: 3}
   m_PrefabInstance: {fileID: 200909626}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2136886613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136886610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb6b867a41448888c1cd4f99643ad71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SensorName: RayPerceptionSensor
+  m_DetectableTags: []
+  m_RaysPerDirection: 3
+  m_MaxRayDegrees: 70
+  m_SphereCastRadius: 0.5
+  m_RayLength: 20
+  m_RayLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967291
+  m_ObservationStacks: 1
+  rayHitColor: {r: 1, g: 0, b: 0, a: 1}
+  rayMissColor: {r: 1, g: 1, b: 1, a: 1}
+  m_StartVerticalOffset: 0
+  m_EndVerticalOffset: 0
 --- !u!54 &2136886616
 Rigidbody:
   m_ObjectHideFlags: 0
