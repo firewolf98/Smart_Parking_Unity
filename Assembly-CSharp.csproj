@@ -57,24 +57,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Imported_Assets\WhiteCity\Offer\Asset_Store_Offers.cs" />
-    <Compile Include="Assets\Scripts\movimenti.cs" />
-    <Compile Include="Assets\Imported_Assets\Cars\Scripts\CarSpawner.cs" />
-    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\CarAgentParallel.cs" />
-    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\self_driving_camera_manager.cs" />
-    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\CarController.cs" />
-    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\CarAgent.cs" />
-    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\Suspension.cs" />
-    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\CarAcademy.cs" />
+    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\WheelEffects.cs" />
+    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\CarSelfRighting.cs" />
     <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\Mudguard.cs" />
+    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\CarAgent.cs" />
+    <Compile Include="Assets\Imported_Assets\Cars\Scripts\CarTelemetry.cs" />
+    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\Suspension.cs" />
+    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\CarController.cs" />
+    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\self_driving_camera_manager.cs" />
+    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\BrakeLight.cs" />
+    <Compile Include="Assets\Imported_Assets\Cars\Scripts\CarSpawner.cs" />
+    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\CarAcademy.cs" />
+    <Compile Include="Assets\Imported_Assets\Cars\Scripts\CarStripSpawner.cs" />
     <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\CarAIControl.cs" />
     <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\SkidTrail.cs" />
+    <Compile Include="Assets\Scripts\movimenti.cs" />
+    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\CarAgentParallel.cs" />
     <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\CarUserControl.cs" />
-    <Compile Include="Assets\Imported_Assets\Cars\Scripts\CarStripSpawner.cs" />
-    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\WheelEffects.cs" />
-    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\BrakeLight.cs" />
     <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\CarAudio.cs" />
-    <Compile Include="Assets\Imported_Assets\Cars\Scripts\Car\CarSelfRighting.cs" />
-    <Compile Include="Assets\Imported_Assets\Cars\Scripts\CarTelemetry.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Imported_Assets\SpaceZeta_Spotlight\Info.txt" />

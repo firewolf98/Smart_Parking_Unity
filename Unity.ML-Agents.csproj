@@ -82,8 +82,8 @@
     <Compile Include="ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\RayPerceptionSensorComponent2D.cs" />
     <Compile Include="ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents\Runtime\Analytics\InferenceAnalytics.cs" />
     <Compile Include="ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents\Runtime\Sensors\Reflection\ReflectionSensorBase.cs" />
-    <Compile Include="ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationMetaData.cs" />
     <Compile Include="ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents\Runtime\Analytics\AnalyticsUtils.cs" />
+    <Compile Include="ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents\Runtime\Demonstrations\DemonstrationMetaData.cs" />
     <Compile Include="ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents\Runtime\Actuators\ActionSpec.cs" />
     <Compile Include="ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents\Runtime\Integrations\Match3\Match3SensorComponent.cs" />
     <Compile Include="ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents\Runtime\Integrations\Match3\Match3Actuator.cs" />

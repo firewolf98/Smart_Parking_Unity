@@ -4,32 +4,34 @@ using UnityEngine;
 
 public class movimenti : MonoBehaviour
 {
-    float moveSpeed=4.5F;
-    float rotationSpeed = 9.5F;
+    public List<Transform> waypoints;
+    public float moveSpeed = 4.5f;
+    public float rotationSpeed = 9.5f;
+    private int currentWaypointIndex = 0;
 
-    Vector3 forward = new Vector3(0, 0, 1);
-    Vector3 backward = new Vector3(0, 0, -1);
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.UpArrow))
-            transform.Translate(forward*moveSpeed*Time.deltaTime);
-        if(Input.GetKey(KeyCode.DownArrow))
-            transform.Translate(backward*moveSpeed*Time.deltaTime);
-        if(Input.GetKey(KeyCode.LeftArrow))
-            transform.Rotate(Vector3.up, -rotationSpeed * Time.deltaTime);
-        if (Input.GetKey(KeyCode.RightArrow))
-            transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
-        if (Input.GetKey(KeyCode.Space))
-            transform.Translate(Vector3.up*moveSpeed*Time.deltaTime);
-        if(Input.GetKey(KeyCode.LeftShift))
-            transform.Translate(-Vector3.up*moveSpeed*Time.deltaTime);
+        if (waypoints.Count == 0) return;
 
+        Transform targetWaypoint = waypoints[currentWaypointIndex];
+        Vector3 directionToTarget = targetWaypoint.position - transform.position;
+        directionToTarget.y = 0; // Ignora la componente y per mantenere la macchina sul piano orizzontale
+
+        // Muovi verso il waypoint
+        transform.position = Vector3.MoveTowards(transform.position, targetWaypoint.position, moveSpeed * Time.deltaTime);
+
+        // Ruota verso il waypoint
+        Quaternion targetRotation = Quaternion.LookRotation(directionToTarget);
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+
+        // Se la macchina è vicina al waypoint, passa al successivo
+        if (Vector3.Distance(transform.position, targetWaypoint.position) < 0.5f)
+        {
+            currentWaypointIndex++;
+            if (currentWaypointIndex >= waypoints.Count)
+            {
+                currentWaypointIndex = 0; // Ricomincia dal primo waypoint o fermati qui a seconda della tua logica
+            }
+        }
     }
 }
