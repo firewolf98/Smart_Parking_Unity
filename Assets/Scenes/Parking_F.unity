@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.27666262, g: 0.38564533, b: 0.53661925, a: 1}
+  m_IndirectSpecularColor: {r: 0.2767181, g: 0.38506955, b: 0.5361662, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3865,7 +3865,7 @@ Transform:
   - {fileID: 1401351059}
   - {fileID: 1855706686}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &108286894
 PrefabInstance:
@@ -6190,7 +6190,7 @@ GameObject:
   - component: {fileID: 160476284}
   - component: {fileID: 160476283}
   - component: {fileID: 160476282}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7834,7 +7834,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2872656104429308514, guid: 9a1d0a5028d9f524bb8274f5b97a0122, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2872656104429308514, guid: 9a1d0a5028d9f524bb8274f5b97a0122, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8650,7 +8650,7 @@ GameObject:
   - component: {fileID: 224664898}
   - component: {fileID: 224664897}
   - component: {fileID: 224664896}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14951,7 +14951,7 @@ GameObject:
   - component: {fileID: 382145145}
   - component: {fileID: 382145144}
   - component: {fileID: 382145143}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15241,7 +15241,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 404172895}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ParcheggioB1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18497,7 +18497,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &494947066
 PrefabInstance:
@@ -18691,7 +18691,7 @@ GameObject:
   - component: {fileID: 495715232}
   - component: {fileID: 495715231}
   - component: {fileID: 495715230}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19533,7 +19533,7 @@ GameObject:
   - component: {fileID: 512870082}
   - component: {fileID: 512870081}
   - component: {fileID: 512870080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19792,7 +19792,7 @@ GameObject:
   - component: {fileID: 520441988}
   - component: {fileID: 520441987}
   - component: {fileID: 520441986}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20502,6 +20502,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b371324d60f1ca9408481c0bd5f4539d, type: 3}
+--- !u!1001 &529719705
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1368987628937346580, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_Name
+      value: PaperCarsCabrio2DayOrange Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.073065
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 80.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
 --- !u!1001 &532482356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21359,7 +21416,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 556286498}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ParcheggioA2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23872,7 +23929,7 @@ Transform:
   - {fileID: 2126926662}
   - {fileID: 604073014}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &622454804
 PrefabInstance:
@@ -24933,7 +24990,7 @@ GameObject:
   - component: {fileID: 648875537}
   - component: {fileID: 648875536}
   - component: {fileID: 648875535}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25967,7 +26024,7 @@ GameObject:
   - component: {fileID: 676626703}
   - component: {fileID: 676626702}
   - component: {fileID: 676626701}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27052,7 +27109,7 @@ GameObject:
   - component: {fileID: 701019982}
   - component: {fileID: 701019981}
   - component: {fileID: 701019980}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28027,7 +28084,7 @@ GameObject:
   - component: {fileID: 729145098}
   - component: {fileID: 729145097}
   - component: {fileID: 729145096}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28823,7 +28880,7 @@ GameObject:
   - component: {fileID: 755168687}
   - component: {fileID: 755168686}
   - component: {fileID: 755168685}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32075,7 +32132,7 @@ Transform:
   m_Children:
   - {fileID: 243122508}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &821849059
 PrefabInstance:
@@ -32514,7 +32571,7 @@ GameObject:
   - component: {fileID: 835118367}
   - component: {fileID: 835118366}
   - component: {fileID: 835118365}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33049,7 +33106,7 @@ GameObject:
   - component: {fileID: 848015055}
   - component: {fileID: 848015054}
   - component: {fileID: 848015053}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38735,6 +38792,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4379673244704792, guid: 1be61187b5d765449be824463642cb0f, type: 3}
   m_PrefabInstance: {fileID: 1030579366}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1035164058
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1368987628937346580, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_Name
+      value: PaperCarsCabrio2DayOrange Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.073065
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 74.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
 --- !u!1001 &1035522246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41453,7 +41567,7 @@ GameObject:
   - component: {fileID: 1115784483}
   - component: {fileID: 1115784482}
   - component: {fileID: 1115784481}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42422,7 +42536,7 @@ GameObject:
   - component: {fileID: 1138403310}
   - component: {fileID: 1138403309}
   - component: {fileID: 1138403308}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46485,7 +46599,7 @@ GameObject:
   - component: {fileID: 1264684994}
   - component: {fileID: 1264684993}
   - component: {fileID: 1264684992}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48509,7 +48623,7 @@ GameObject:
   - component: {fileID: 1328166635}
   - component: {fileID: 1328166634}
   - component: {fileID: 1328166633}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49961,7 +50075,7 @@ GameObject:
   - component: {fileID: 1362488390}
   - component: {fileID: 1362488389}
   - component: {fileID: 1362488388}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50365,7 +50479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1377513187}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Parking_lots
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52655,7 +52769,7 @@ GameObject:
   - component: {fileID: 1446535397}
   - component: {fileID: 1446535396}
   - component: {fileID: 1446535395}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54335,7 +54449,7 @@ Transform:
   - {fileID: 64729491}
   - {fileID: 1497491436}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1474530027
 PrefabInstance:
@@ -56438,7 +56552,7 @@ GameObject:
   - component: {fileID: 1540159339}
   - component: {fileID: 1540159338}
   - component: {fileID: 1540159337}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58314,7 +58428,7 @@ GameObject:
   - component: {fileID: 1584207939}
   - component: {fileID: 1584207938}
   - component: {fileID: 1584207937}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59291,7 +59405,7 @@ GameObject:
   - component: {fileID: 1608545949}
   - component: {fileID: 1608545948}
   - component: {fileID: 1608545947}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59658,7 +59772,7 @@ GameObject:
   - component: {fileID: 1630932981}
   - component: {fileID: 1630932980}
   - component: {fileID: 1630932979}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64270,7 +64384,7 @@ GameObject:
   - component: {fileID: 1768565713}
   - component: {fileID: 1768565712}
   - component: {fileID: 1768565711}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66370,7 +66484,7 @@ GameObject:
   - component: {fileID: 1827681884}
   - component: {fileID: 1827681883}
   - component: {fileID: 1827681882}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67816,7 +67930,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1846789219}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ParcheggioB2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68481,7 +68595,7 @@ Transform:
   - {fileID: 482699236}
   - {fileID: 1211161259}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1873000340
 PrefabInstance:
@@ -69124,7 +69238,7 @@ Transform:
   - {fileID: 1202517321}
   - {fileID: 176155889}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1897761358
 PrefabInstance:
@@ -69837,7 +69951,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1914026877}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ParcheggioA1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72634,7 +72748,7 @@ GameObject:
   - component: {fileID: 2005697793}
   - component: {fileID: 2005697792}
   - component: {fileID: 2005697791}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74225,7 +74339,7 @@ GameObject:
   - component: {fileID: 2029248201}
   - component: {fileID: 2029248200}
   - component: {fileID: 2029248199}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76693,7 +76807,7 @@ GameObject:
   - component: {fileID: 2105694188}
   - component: {fileID: 2105694187}
   - component: {fileID: 2105694186}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: street (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77729,6 +77843,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
   m_PrefabInstance: {fileID: 506303962}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2123633558
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1368987628937346580, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_Name
+      value: PaperCarsCabrio2DayOrange Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.073065
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 76.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
 --- !u!1 &2124832464
 GameObject:
   m_ObjectHideFlags: 0
@@ -78183,16 +78354,16 @@ MonoBehaviour:
   m_SensorName: RayPerceptionSensor
   m_DetectableTags: []
   m_RaysPerDirection: 3
-  m_MaxRayDegrees: 70
+  m_MaxRayDegrees: 90
   m_SphereCastRadius: 0.5
   m_RayLength: 20
   m_RayLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967291
+    m_Bits: 51
   m_ObservationStacks: 1
   rayHitColor: {r: 1, g: 0, b: 0, a: 1}
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
-  m_StartVerticalOffset: 0
+  m_StartVerticalOffset: 1
   m_EndVerticalOffset: 0
 --- !u!54 &2136886616
 Rigidbody:
