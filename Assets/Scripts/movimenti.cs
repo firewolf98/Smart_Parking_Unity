@@ -30,6 +30,5 @@ public class movimenti : MonoBehaviour
             transform.Translate(Vector3.up*moveSpeed*Time.deltaTime);
         if(Input.GetKey(KeyCode.LeftShift))
             transform.Translate(-Vector3.up*moveSpeed*Time.deltaTime);
-
     }
 }
