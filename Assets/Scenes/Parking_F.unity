@@ -43694,11 +43694,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c324fc12a7cfd0478e30b41a2b7f94d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRotation: 5
-  timeSpent: 0
-  startRotation: {x: 0, y: 0, z: 0, w: 0}
-  finalRotation: {x: -0.70710677, y: -0.00000003090862, z: 0.70710677, w: -0.00000003090862}
-  rayLenght: 5
 --- !u!4 &1186140099 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4214142964039086, guid: b371324d60f1ca9408481c0bd5f4539d, type: 3}
@@ -65383,12 +65378,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bar: {fileID: 1183890822}
   timeRotation: 5
-  timeSpent: 0
-  timeSpentToLower: 0
-  startRotation: {x: 0, y: 0, z: 0, w: 0}
-  finalRotation: {x: -0.70710677, y: -0.00000003090862, z: 0.70710677, w: -0.00000003090862}
-  opened: 0
-  rayLenght: 5
 --- !u!1001 &1800446481
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78416,7 +78405,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136886610}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e5d31598d5085a46ae4e0a1f1519cb9, type: 3}
   m_Name: 
@@ -78482,6 +78471,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distance: 2
   carSpeed: 5
+--- !u!114 &2136886619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136886610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f216dfcdfe7c9841ac7f3443f2bb1b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  max_steering: 0
+  L: 0
 --- !u!1001 &2138825297
 PrefabInstance:
   m_ObjectHideFlags: 0
