@@ -295,7 +295,7 @@
       <HintPath>C:\Program Files\Unity 2020.3.48f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions">
-      <HintPath>ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents\Plugins\System.IO.Abstractions.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Plugins\System.IO.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.4\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
@@ -328,13 +328,13 @@
       <HintPath>Library\PackageCache\com.unity.burst@1.6.0\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions.TestingHelpers">
-      <HintPath>ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents\Plugins\System.IO.Abstractions.TestingHelpers.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Plugins\System.IO.Abstractions.TestingHelpers.dll</HintPath>
     </Reference>
     <Reference Include="System.Interactive.Async">
-      <HintPath>ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents\Plugins\ProtoBuffer\System.Interactive.Async.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Plugins\ProtoBuffer\System.Interactive.Async.dll</HintPath>
     </Reference>
     <Reference Include="Grpc.Core">
-      <HintPath>ml-agents-release_19\ml-agents-release_19\com.unity.ml-agents\Plugins\ProtoBuffer\Grpc.Core.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.ml-agents@2.2.1-exp.1\Plugins\ProtoBuffer\Grpc.Core.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -687,6 +687,12 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:\Program Files\Unity 2020.3.48f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ML-Agents">
+      <HintPath>Library\ScriptAssemblies\Unity.ML-Agents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ML-Agents.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ML-Agents.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -704,14 +710,6 @@
     <ProjectReference Include="Unity.ML-Agents.Extensions.csproj">
       <Project>{2D7BFCEA-23BA-839F-34B4-DC82C806573D}</Project>
       <Name>Unity.ML-Agents.Extensions</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ML-Agents.csproj">
-      <Project>{751C0E95-678C-23B9-4760-0EFA8D29B05E}</Project>
-      <Name>Unity.ML-Agents</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ML-Agents.Editor.csproj">
-      <Project>{B76CDA24-AE92-7D4B-99D1-77F2BEDF5EE1}</Project>
-      <Name>Unity.ML-Agents.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
