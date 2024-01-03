@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.2767181, g: 0.38506955, b: 0.5361662, a: 1}
+  m_IndirectSpecularColor: {r: 0.27666262, g: 0.38564533, b: 0.53661925, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2040,6 +2040,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_11
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -3865,7 +3869,7 @@ Transform:
   - {fileID: 1401351059}
   - {fileID: 1855706686}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &108286894
 PrefabInstance:
@@ -3934,6 +3938,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -4618,6 +4626,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -7112,6 +7124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_7
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -7834,7 +7850,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2872656104429308514, guid: 9a1d0a5028d9f524bb8274f5b97a0122, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2872656104429308514, guid: 9a1d0a5028d9f524bb8274f5b97a0122, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9381,6 +9397,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4920882480831972, guid: e0fc85fd9749f81419db8c7baf6ba36e, type: 3}
   m_PrefabInstance: {fileID: 235879476}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &236819913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+  m_PrefabInstance: {fileID: 956072490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &236819914
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236819913}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.48, y: 0, z: 0}
 --- !u!4 &237271036 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4128071732523052, guid: 64c8858bb5c72b0449860f828a7a54fa, type: 3}
@@ -13407,6 +13441,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3447900309241381915, guid: d2420b29e97767a499f1a0fcbc314b3a, type: 3}
   m_PrefabInstance: {fileID: 345725279}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &346825860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+  m_PrefabInstance: {fileID: 1228660039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &346825861
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346825860}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.48, y: 0, z: 0}
 --- !u!1001 &347002612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16624,6 +16676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -18364,6 +18420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -18501,7 +18561,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &494947066
 PrefabInstance:
@@ -19092,6 +19152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -19254,6 +19318,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -19722,6 +19790,24 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: c91a13251b3a22940a765e47423b7033, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0fc85fd9749f81419db8c7baf6ba36e, type: 3}
+--- !u!1 &516937180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+  m_PrefabInstance: {fileID: 802606660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &516937181
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516937180}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.48, y: 0, z: 0}
 --- !u!1001 &518790875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20506,63 +20592,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b371324d60f1ca9408481c0bd5f4539d, type: 3}
---- !u!1001 &529719705
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1368987628937346580, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_Name
-      value: PaperCarsCabrio2DayOrange Variant (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.43
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.073065
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 80.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
 --- !u!1001 &532482356
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21143,6 +21172,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3447900309241381915, guid: d2420b29e97767a499f1a0fcbc314b3a, type: 3}
   m_PrefabInstance: {fileID: 549408107}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &550609267 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+  m_PrefabInstance: {fileID: 506303962}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &550609268
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550609267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.48, y: 0, z: 0}
+--- !u!1 &550639478 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+  m_PrefabInstance: {fileID: 1407663367}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &550639479
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550639478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.48, y: 0, z: 0}
 --- !u!1001 &550780210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21448,6 +21513,24 @@ Transform:
   m_Father: {fileID: 1377513187}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &557885915 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+  m_PrefabInstance: {fileID: 746498171}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &557885916
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557885915}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.48, y: 0, z: 0}
 --- !u!1001 &558753452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22620,6 +22703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_14
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -23785,6 +23872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_5
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -23893,6 +23984,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4379673244704792, guid: 1be61187b5d765449be824463642cb0f, type: 3}
   m_PrefabInstance: {fileID: 617131604}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &619282077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+  m_PrefabInstance: {fileID: 489578419}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &619282078
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619282077}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.48, y: 0, z: 0}
 --- !u!4 &621691034 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4214142964039086, guid: b371324d60f1ca9408481c0bd5f4539d, type: 3}
@@ -23933,7 +24042,7 @@ Transform:
   - {fileID: 2126926662}
   - {fileID: 604073014}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &622454804
 PrefabInstance:
@@ -27657,6 +27766,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_14
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -28434,6 +28547,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -29780,6 +29897,24 @@ Transform:
   m_Father: {fileID: 614606567}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &772256128 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+  m_PrefabInstance: {fileID: 844167052}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &772256129
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772256128}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.48, y: 0, z: 0}
 --- !u!1001 &773572392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30892,6 +31027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_8
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -31360,6 +31499,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -32168,7 +32311,7 @@ Transform:
   m_Children:
   - {fileID: 243122508}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &821849059
 PrefabInstance:
@@ -33083,6 +33226,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -35888,6 +36035,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4920882480831972, guid: e0fc85fd9749f81419db8c7baf6ba36e, type: 3}
   m_PrefabInstance: {fileID: 932759262}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &933634891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+  m_PrefabInstance: {fileID: 1616879407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &933634892
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933634891}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.48, y: 0, z: 0}
 --- !u!1001 &934432412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36627,6 +36792,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -36688,6 +36857,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -38246,6 +38419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_9
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -38828,63 +39005,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4379673244704792, guid: 1be61187b5d765449be824463642cb0f, type: 3}
   m_PrefabInstance: {fileID: 1030579366}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1035164058
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1368987628937346580, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_Name
-      value: PaperCarsCabrio2DayOrange Variant (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_RootOrder
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.43
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.073065
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 74.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
 --- !u!1001 &1035522246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39740,6 +39860,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4661298526496350, guid: 6ebfc6898dc70814c86bb78d43e72a9c, type: 3}
   m_PrefabInstance: {fileID: 1272987204}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1064264489 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+  m_PrefabInstance: {fileID: 1862202610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1064264490
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064264489}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.48, y: 0, z: 0}
 --- !u!4 &1064390941 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 431542, guid: bf6998b76a98a58449dac0b8b56d447c, type: 3}
@@ -43682,23 +43820,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1567107446370580, guid: 7c29ac97a1831bc4a998dd5de54aef5d, type: 3}
   m_PrefabInstance: {fileID: 786460980}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1183890827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1183890822}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c324fc12a7cfd0478e30b41a2b7f94d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeRotation: 5
-  timeSpent: 0
-  startRotation: {x: 0, y: 0, z: 0, w: 0}
-  finalRotation: {x: -0.70710677, y: -0.00000003090862, z: 0.70710677, w: -0.00000003090862}
-  rayLenght: 5
 --- !u!4 &1186140099 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4214142964039086, guid: b371324d60f1ca9408481c0bd5f4539d, type: 3}
@@ -45038,6 +45159,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -46438,6 +46563,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -50562,6 +50691,24 @@ Transform:
   m_Father: {fileID: 1870416058}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1378436661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+  m_PrefabInstance: {fileID: 52073617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1378436662
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378436661}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.48, y: 0, z: 0}
 --- !u!4 &1379006585 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4920882480831972, guid: e0fc85fd9749f81419db8c7baf6ba36e, type: 3}
@@ -51780,6 +51927,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -53207,6 +53358,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1449783686}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1450732493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+  m_PrefabInstance: {fileID: 709772110}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1450732494
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450732493}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.48, y: 0, z: 0}
 --- !u!1001 &1452583727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54507,7 +54676,7 @@ Transform:
   - {fileID: 64729491}
   - {fileID: 1497491436}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1474530027
 PrefabInstance:
@@ -59562,6 +59731,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_8
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -61801,6 +61974,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -65383,12 +65560,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bar: {fileID: 1183890822}
   timeRotation: 5
-  timeSpent: 0
-  timeSpentToLower: 0
-  startRotation: {x: 0, y: 0, z: 0, w: 0}
-  finalRotation: {x: -0.70710677, y: -0.00000003090862, z: 0.70710677, w: -0.00000003090862}
-  opened: 0
-  rayLenght: 5
 --- !u!1001 &1800446481
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67452,6 +67623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_10
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -68414,6 +68589,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -68682,7 +68861,7 @@ Transform:
   - {fileID: 482699236}
   - {fileID: 1211161259}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1873000340
 PrefabInstance:
@@ -68990,7 +69169,7 @@ GameObject:
   - component: {fileID: 1885714447}
   m_Layer: 0
   m_Name: ErbettaA
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69122,6 +69301,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4856306296933562, guid: efbec96b2d3e0b5429a2e20c21fdfeda, type: 3}
   m_PrefabInstance: {fileID: 1889188021}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1890327731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+  m_PrefabInstance: {fileID: 501317972}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1890327732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890327731}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.48, y: 0, z: 0}
 --- !u!1001 &1893637008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69325,7 +69522,7 @@ Transform:
   - {fileID: 1202517321}
   - {fileID: 176155889}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1897761358
 PrefabInstance:
@@ -70720,6 +70917,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939273705}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1944869747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+  m_PrefabInstance: {fileID: 2062624146}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1944869748
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944869747}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0.48, y: 0, z: 0}
 --- !u!1001 &1949127906
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75321,6 +75536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass_stone_7
       objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -75688,7 +75907,7 @@ GameObject:
   - component: {fileID: 2076405666}
   m_Layer: 0
   m_Name: ErbettaB
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75888,6 +76107,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -76425,6 +76648,10 @@ PrefabInstance:
     - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_Name
       value: Grass_stone_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180388739977234, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
+      propertyPath: m_TagString
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
       propertyPath: m_RootOrder
@@ -77930,63 +78157,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4333627001259202, guid: 4752f864e3118e64482c22f7a8d21b01, type: 3}
   m_PrefabInstance: {fileID: 506303962}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2123633558
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1368987628937346580, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_Name
-      value: PaperCarsCabrio2DayOrange Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.073065
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 76.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
 --- !u!1 &2124832464
 GameObject:
   m_ObjectHideFlags: 0
@@ -78475,12 +78645,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136886610}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13f918f8b5fe83e4ea8e89542e77bd0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 2
+  distance: 3
   carSpeed: 5
 --- !u!1001 &2138825297
 PrefabInstance:

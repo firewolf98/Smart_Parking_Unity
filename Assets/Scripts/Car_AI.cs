@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.MLAgents.Integrations.Match3;
 using UnityEngine;
 
 public class Car_AI : MonoBehaviour
 {
-    public float distance = 2f;
+    public float distance = 3f;
     public float carSpeed = 5f;
 
     private void Update()
@@ -13,16 +10,33 @@ public class Car_AI : MonoBehaviour
         RaycastHit hit;
         Physics.Raycast(transform.position, transform.forward, out hit, distance);
 
-        if(hit.transform)
+        Vector3 posizioneOrigine = transform.position;
+        Vector3 direzione = transform.forward;
+
+        if (Physics.Raycast(posizioneOrigine, direzione, out hit, distance))
         {
-            if(hit.transform.tag == "Gate")
+            Debug.DrawRay(posizioneOrigine, direzione * distance, Color.red);
+            Debug.Log("Il raycast ha colpito l'oggetto con il tag: " + hit.collider.tag);
+        }
+        else
+        {
+            Debug.DrawRay(posizioneOrigine, direzione * distance, Color.green);
+        }
+
+        if (Physics.Raycast(posizioneOrigine, direzione * distance, out hit, distance))
+        {
+            if (hit.collider.CompareTag("Grass"))
             {
                 Stop();
+            }
+            else
+            {
+                //Move();
             }
         }
         else
         {
-            Move();
+            //Move();
         }
     }
 
