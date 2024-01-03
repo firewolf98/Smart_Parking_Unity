@@ -7832,6 +7832,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2330332417553902986, guid: 9a1d0a5028d9f524bb8274f5b97a0122, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2872656104429308514, guid: 9a1d0a5028d9f524bb8274f5b97a0122, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -20516,6 +20520,10 @@ PrefabInstance:
     - target: {fileID: 1368987628937346580, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
       propertyPath: m_Name
       value: PaperCarsCabrio2DayOrange Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1368987628937346580, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_TagString
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
       propertyPath: m_RootOrder
@@ -38839,6 +38847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaperCarsCabrio2DayOrange Variant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1368987628937346580, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
     - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -43694,11 +43706,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c324fc12a7cfd0478e30b41a2b7f94d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRotation: 5
-  timeSpent: 0
-  startRotation: {x: 0, y: 0, z: 0, w: 0}
-  finalRotation: {x: -0.70710677, y: -0.00000003090862, z: 0.70710677, w: -0.00000003090862}
-  rayLenght: 5
 --- !u!4 &1186140099 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4214142964039086, guid: b371324d60f1ca9408481c0bd5f4539d, type: 3}
@@ -65383,12 +65390,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bar: {fileID: 1183890822}
   timeRotation: 5
-  timeSpent: 0
-  timeSpentToLower: 0
-  startRotation: {x: 0, y: 0, z: 0, w: 0}
-  finalRotation: {x: -0.70710677, y: -0.00000003090862, z: 0.70710677, w: -0.00000003090862}
-  opened: 0
-  rayLenght: 5
 --- !u!1001 &1800446481
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75688,7 +75689,7 @@ GameObject:
   - component: {fileID: 2076405666}
   m_Layer: 0
   m_Name: ErbettaB
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77941,6 +77942,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaperCarsCabrio2DayOrange Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1368987628937346580, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
+      propertyPath: m_TagString
+      value: Car
+      objectReference: {fileID: 0}
     - target: {fileID: 1852191462293677230, guid: fc2df3895b93d1c44a94a03557d070e6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -78452,6 +78457,21 @@ MonoBehaviour:
   rayMissColor: {r: 1, g: 1, b: 1, a: 1}
   m_StartVerticalOffset: 1
   m_EndVerticalOffset: 0
+--- !u!114 &2136886614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136886610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f56b07984979454585a9031d739be04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetTags:
+  - Wall
+  - Car
 --- !u!54 &2136886616
 Rigidbody:
   m_ObjectHideFlags: 0

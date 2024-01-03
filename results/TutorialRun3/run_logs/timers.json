@@ -1,0 +1,63 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1704017866",
+        "python_version": "3.8.18 (default, Sep 11 2023, 13:39:12) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\franc\\anaconda3\\envs\\mlagents2\\Scripts\\mlagents-learn trainer_settings.yaml --run-id=TutorialRun3 --quality-level=0",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.1.2",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1704017875"
+    },
+    "total": 9.9616138,
+    "count": 1,
+    "self": 0.034113100000000784,
+    "children": {
+        "run_training.setup": {
+            "total": 0.14948019999999973,
+            "count": 1,
+            "self": 0.14948019999999973
+        },
+        "TrainerController.start_learning": {
+            "total": 9.7780205,
+            "count": 1,
+            "self": 0.00015169999999997685,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 9.7724919,
+                    "count": 1,
+                    "self": 9.7722781,
+                    "children": {
+                        "demo_to_buffer": {
+                            "total": 0.0002138000000009299,
+                            "count": 1,
+                            "self": 2.8900000000220416e-05,
+                            "children": {
+                                "load_demonstration": {
+                                    "total": 0.0001849000000007095,
+                                    "count": 1,
+                                    "self": 0.0001849000000007095
+                                }
+                            }
+                        }
+                    }
+                },
+                "TrainerController._save_models": {
+                    "total": 0.005376899999999907,
+                    "count": 1,
+                    "self": 0.0006725000000002979,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.004704399999999609,
+                            "count": 1,
+                            "self": 0.004704399999999609
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
