@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\Gate_AI.cs" />
      <Compile Include="Assets\Scripts\Car_AI.cs" />
      <Compile Include="Assets\Scripts\movimenti.cs" />
+     <Compile Include="Assets\Scripts\WheelController.cs" />
      <None Include="Assets\Imported_Assets\SpaceZeta_Spotlight\Info.txt" />
      <None Include="Assets\Imported_Assets\Parkgarage\parkinggarage_readMe.txt" />
      <None Include="Assets\Imported_Assets\BackgroundCars\FreeCar\BackgroundCar-Free.txt" />

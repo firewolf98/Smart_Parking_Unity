@@ -33,6 +33,6 @@ public class Car_AI : MonoBehaviour
 
     void Move()
     {
-        transform.position -= new Vector3(carSpeed * Time.deltaTime, 0, 0);
+        //transform.position -= new Vector3(carSpeed * Time.deltaTime, 0, 0);
     }
 }
