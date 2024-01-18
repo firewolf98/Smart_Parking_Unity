@@ -56,12 +56,17 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Imported_Assets\WhiteCity\Offer\Asset_Store_Offers.cs" />
-    <Compile Include="Assets\Scripts\Gate_AI.cs" />
     <Compile Include="Assets\Scripts\CarController.cs" />
-    <Compile Include="Assets\Scripts\Car_AI.cs" />
-    <Compile Include="Assets\Scripts\movimenti.cs" />
+    <Compile Include="Assets\Imported_Assets\WhiteCity\Offer\Asset_Store_Offers.cs" />
     <Compile Include="Assets\Scripts\WheelController.cs" />
+    <Compile Include="Assets\Scripts\Gate_AI.cs" />
+    <Compile Include="Assets\Scripts\Car_AI.cs" />
+    <Compile Include="Assets\Scripts\Car_AI\CarAgent.cs" />
+    <Compile Include="Assets\Scripts\Car_AI\BaseAgent.cs" />
+    <Compile Include="Assets\Scripts\Car_AI\CarController.cs" />
+    <Compile Include="Assets\Scripts\Car_AI\CarSpots.cs" />
+    <Compile Include="Assets\Scripts\Car_AI\CarGoal.cs" />
+    <Compile Include="Assets\Scripts\Car_AI\CarObstacle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Imported_Assets\SpaceZeta_Spotlight\Info.txt" />

@@ -11,20 +11,18 @@ public class WheelController : MonoBehaviour
     public float accelleration = 500f;
     public float breakingForce = 300f;
     public float maxturnAngle = 15f;
-    private float currentAccelleration = 0f;
     private float currentBreakingForce = 0f;
     private float currentTurnAngle = 0f;
 
     void FixedUpdate()
     {
-        currentAccelleration = accelleration * Input.GetAxis("Vertical");
         if (Input.GetKey(KeyCode.Space))
             currentBreakingForce = breakingForce;
         else
             currentBreakingForce = 0f;
 
-        frontRight.motorTorque = currentAccelleration;
-        frontLeft.motorTorque = currentAccelleration;
+        frontRight.motorTorque = accelleration;
+        frontLeft.motorTorque = accelleration;
 
         frontRight.brakeTorque = currentBreakingForce;
         frontLeft.brakeTorque = currentBreakingForce;
