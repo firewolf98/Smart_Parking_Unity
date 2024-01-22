@@ -28754,6 +28754,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4920882480831972, guid: e0fc85fd9749f81419db8c7baf6ba36e, type: 3}
   m_PrefabInstance: {fileID: 1654134179}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &745442848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 745442849}
+  - component: {fileID: 745442851}
+  - component: {fileID: 745442850}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &745442849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745442848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.01, y: 0.5, z: 1.51}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 818368007}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &745442850
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745442848}
+  m_Enabled: 0
+--- !u!20 &745442851
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745442848}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1001 &746498171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32244,7 +32327,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818367999}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57039842659645748895cdf9d1cd8e70, type: 3}
   m_Name: 
@@ -32270,6 +32353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distance: 2
   carSpeed: 5
+  findParking: 1
 --- !u!114 &818368002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32312,6 +32396,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &818368004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818367999}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b6042bc9a5d4aa58d931eae49442e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
 --- !u!4 &818368007 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2872656104429308514, guid: 9a1d0a5028d9f524bb8274f5b97a0122, type: 3}
@@ -32324,7 +32424,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818367999}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a035a80e260f7c4f9243ac2c84dfb85, type: 3}
   m_Name: 
@@ -32347,28 +32447,6 @@ MonoBehaviour:
   m_SlipLimit: 0.3
   m_BrakeTorque: 20000
   m_engineBrakeTorque: 300
---- !u!114 &818368009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 818367999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c7c0df4237f1524b89a3d9dc8cd653e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  agentParameters:
-    maxStep: 0
-  hasUpgradedFromAgentParameters: 1
-  MaxStep: 1000
-  envRadiusX: 3
-  envRadiusZ: 10
-  inTargetMultiplier: 1.5
-  target: {fileID: 917759439}
-  sensorCompressionType: 1
-  findParkingSpot: 0
 --- !u!114 &818368010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36075,11 +36153,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4786106381246896, guid: 3f544eaa13dc7074cba3aed998b27842, type: 3}
   m_PrefabInstance: {fileID: 917605529}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &917759439 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6303242833003759328, guid: bc7be4f129fb8834e84c0d6d6929a3d8, type: 3}
-  m_PrefabInstance: {fileID: 1431760255}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &925861157
 PrefabInstance:
@@ -53119,7 +53192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6303242833003759332, guid: bc7be4f129fb8834e84c0d6d6929a3d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.073064
+      value: 4.38
       objectReference: {fileID: 0}
     - target: {fileID: 6303242833003759332, guid: bc7be4f129fb8834e84c0d6d6929a3d8, type: 3}
       propertyPath: m_LocalPosition.z

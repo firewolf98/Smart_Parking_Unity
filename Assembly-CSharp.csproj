@@ -61,12 +61,6 @@
     <Compile Include="Assets\Scripts\WheelController.cs" />
     <Compile Include="Assets\Scripts\Gate_AI.cs" />
     <Compile Include="Assets\Scripts\Car_AI.cs" />
-    <Compile Include="Assets\Scripts\Car_AI\CarAgent.cs" />
-    <Compile Include="Assets\Scripts\Car_AI\BaseAgent.cs" />
-    <Compile Include="Assets\Scripts\Car_AI\CarController.cs" />
-    <Compile Include="Assets\Scripts\Car_AI\CarSpots.cs" />
-    <Compile Include="Assets\Scripts\Car_AI\CarGoal.cs" />
-    <Compile Include="Assets\Scripts\Car_AI\CarObstacle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Imported_Assets\SpaceZeta_Spotlight\Info.txt" />
