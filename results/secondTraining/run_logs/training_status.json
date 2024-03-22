@@ -1,0 +1,47 @@
+{
+    "CarBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 999848,
+                "file_path": "results\\secondTraining\\CarBehaviour\\CarBehaviour-999848.onnx",
+                "reward": 257.838397026062,
+                "creation_time": 1706729563.70509,
+                "auxillary_file_paths": [
+                    "results\\secondTraining\\CarBehaviour\\CarBehaviour-999848.pt"
+                ]
+            },
+            {
+                "steps": 1999848,
+                "file_path": "results\\secondTraining\\CarBehaviour\\CarBehaviour-1999848.onnx",
+                "reward": 257.8741354942322,
+                "creation_time": 1706735928.7517846,
+                "auxillary_file_paths": [
+                    "results\\secondTraining\\CarBehaviour\\CarBehaviour-1999848.pt"
+                ]
+            },
+            {
+                "steps": 2453584,
+                "file_path": "results\\secondTraining\\CarBehaviour\\CarBehaviour-2453584.onnx",
+                "reward": 257.74433040618896,
+                "creation_time": 1706738787.404306,
+                "auxillary_file_paths": [
+                    "results\\secondTraining\\CarBehaviour\\CarBehaviour-2453584.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2453584,
+            "file_path": "results\\secondTraining\\CarBehaviour.onnx",
+            "reward": 257.74433040618896,
+            "creation_time": 1706738787.404306,
+            "auxillary_file_paths": [
+                "results\\secondTraining\\CarBehaviour\\CarBehaviour-2453584.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

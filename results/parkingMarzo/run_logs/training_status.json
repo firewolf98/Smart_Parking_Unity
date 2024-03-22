@@ -1,0 +1,155 @@
+{
+    "CarBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 51999813,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-51999813.onnx",
+                "reward": 112.34453264872234,
+                "creation_time": 1711005976.4763024,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-51999813.pt"
+                ]
+            },
+            {
+                "steps": 52999992,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-52999992.onnx",
+                "reward": 39.63812255859375,
+                "creation_time": 1711010079.5702124,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-52999992.pt"
+                ]
+            },
+            {
+                "steps": 53999945,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-53999945.onnx",
+                "reward": null,
+                "creation_time": 1711014184.208465,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-53999945.pt"
+                ]
+            },
+            {
+                "steps": 54999871,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-54999871.onnx",
+                "reward": 116.64579677581787,
+                "creation_time": 1711018298.198675,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-54999871.pt"
+                ]
+            },
+            {
+                "steps": 55999980,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-55999980.onnx",
+                "reward": -13.441357421875,
+                "creation_time": 1711022407.1988795,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-55999980.pt"
+                ]
+            },
+            {
+                "steps": 56999945,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-56999945.onnx",
+                "reward": 65.5400972366333,
+                "creation_time": 1711026509.132209,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-56999945.pt"
+                ]
+            },
+            {
+                "steps": 57999915,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-57999915.onnx",
+                "reward": 31.850372314453125,
+                "creation_time": 1711030612.4812608,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-57999915.pt"
+                ]
+            },
+            {
+                "steps": 58999897,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-58999897.onnx",
+                "reward": 73.59921979904175,
+                "creation_time": 1711034723.651444,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-58999897.pt"
+                ]
+            },
+            {
+                "steps": 59999967,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-59999967.onnx",
+                "reward": 76.52921199798584,
+                "creation_time": 1711038832.817826,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-59999967.pt"
+                ]
+            },
+            {
+                "steps": 60999930,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-60999930.onnx",
+                "reward": -7.07015087293542,
+                "creation_time": 1711042938.7389405,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-60999930.pt"
+                ]
+            },
+            {
+                "steps": 61999885,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-61999885.onnx",
+                "reward": 110.27118730545044,
+                "creation_time": 1711047054.661843,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-61999885.pt"
+                ]
+            },
+            {
+                "steps": 62999939,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-62999939.onnx",
+                "reward": null,
+                "creation_time": 1711051175.3414667,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-62999939.pt"
+                ]
+            },
+            {
+                "steps": 63999791,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-63999791.onnx",
+                "reward": 76.31780014038085,
+                "creation_time": 1711055297.5292537,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-63999791.pt"
+                ]
+            },
+            {
+                "steps": 64999803,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-64999803.onnx",
+                "reward": 112.03938961029053,
+                "creation_time": 1711059419.0136235,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-64999803.pt"
+                ]
+            },
+            {
+                "steps": 65395872,
+                "file_path": "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-65395872.onnx",
+                "reward": null,
+                "creation_time": 1711061048.7941198,
+                "auxillary_file_paths": [
+                    "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-65395872.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 65395872,
+            "file_path": "results\\parkingMarzo\\CarBehaviour.onnx",
+            "reward": null,
+            "creation_time": 1711061048.7941198,
+            "auxillary_file_paths": [
+                "results\\parkingMarzo\\CarBehaviour\\CarBehaviour-65395872.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

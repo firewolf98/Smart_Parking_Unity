@@ -1,0 +1,47 @@
+{
+    "CarBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 999999,
+                "file_path": "results\\multiEnv\\CarBehaviour\\CarBehaviour-999999.onnx",
+                "reward": -99.7245764503542,
+                "creation_time": 1706905511.9210503,
+                "auxillary_file_paths": [
+                    "results\\multiEnv\\CarBehaviour\\CarBehaviour-999999.pt"
+                ]
+            },
+            {
+                "steps": 1999999,
+                "file_path": "results\\multiEnv\\CarBehaviour\\CarBehaviour-1999999.onnx",
+                "reward": -100.14268515224204,
+                "creation_time": 1706915666.235022,
+                "auxillary_file_paths": [
+                    "results\\multiEnv\\CarBehaviour\\CarBehaviour-1999999.pt"
+                ]
+            },
+            {
+                "steps": 2001047,
+                "file_path": "results\\multiEnv\\CarBehaviour\\CarBehaviour-2001047.onnx",
+                "reward": -100.1426730059327,
+                "creation_time": 1706915674.8009698,
+                "auxillary_file_paths": [
+                    "results\\multiEnv\\CarBehaviour\\CarBehaviour-2001047.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2001047,
+            "file_path": "results\\multiEnv\\CarBehaviour.onnx",
+            "reward": -100.1426730059327,
+            "creation_time": 1706915674.8009698,
+            "auxillary_file_paths": [
+                "results\\multiEnv\\CarBehaviour\\CarBehaviour-2001047.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

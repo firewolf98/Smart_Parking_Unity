@@ -1,0 +1,110 @@
+{
+    "CarBehaviour": {
+        "checkpoints": [
+            {
+                "steps": 5618898,
+                "file_path": "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-5618898.onnx",
+                "reward": 137.0243434906006,
+                "creation_time": 1706838194.541515,
+                "auxillary_file_paths": [
+                    "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-5618898.pt"
+                ]
+            },
+            {
+                "steps": 5618898,
+                "file_path": "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-5618898.onnx",
+                "reward": null,
+                "creation_time": 1706866996.8581085,
+                "auxillary_file_paths": [
+                    "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-5618898.pt"
+                ]
+            },
+            {
+                "steps": 5618898,
+                "file_path": "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-5618898.onnx",
+                "reward": null,
+                "creation_time": 1706867033.8461807,
+                "auxillary_file_paths": [
+                    "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-5618898.pt"
+                ]
+            },
+            {
+                "steps": 5618898,
+                "file_path": "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-5618898.onnx",
+                "reward": null,
+                "creation_time": 1706867101.1729758,
+                "auxillary_file_paths": [
+                    "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-5618898.pt"
+                ]
+            },
+            {
+                "steps": 5618898,
+                "file_path": "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-5618898.onnx",
+                "reward": null,
+                "creation_time": 1706867324.138918,
+                "auxillary_file_paths": [
+                    "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-5618898.pt"
+                ]
+            },
+            {
+                "steps": 5999954,
+                "file_path": "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-5999954.onnx",
+                "reward": -1.6471517086029053,
+                "creation_time": 1706869381.3569934,
+                "auxillary_file_paths": [
+                    "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-5999954.pt"
+                ]
+            },
+            {
+                "steps": 6999922,
+                "file_path": "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-6999922.onnx",
+                "reward": null,
+                "creation_time": 1706875102.4762897,
+                "auxillary_file_paths": [
+                    "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-6999922.pt"
+                ]
+            },
+            {
+                "steps": 7999792,
+                "file_path": "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-7999792.onnx",
+                "reward": 335.0211903254191,
+                "creation_time": 1706880678.2035027,
+                "auxillary_file_paths": [
+                    "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-7999792.pt"
+                ]
+            },
+            {
+                "steps": 8999851,
+                "file_path": "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-8999851.onnx",
+                "reward": null,
+                "creation_time": 1706886401.4583292,
+                "auxillary_file_paths": [
+                    "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-8999851.pt"
+                ]
+            },
+            {
+                "steps": 9962744,
+                "file_path": "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-9962744.onnx",
+                "reward": 139.333966255188,
+                "creation_time": 1706891983.028735,
+                "auxillary_file_paths": [
+                    "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-9962744.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 9962744,
+            "file_path": "results\\parkingTraining3\\CarBehaviour.onnx",
+            "reward": 139.333966255188,
+            "creation_time": 1706891983.028735,
+            "auxillary_file_paths": [
+                "results\\parkingTraining3\\CarBehaviour\\CarBehaviour-9962744.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
